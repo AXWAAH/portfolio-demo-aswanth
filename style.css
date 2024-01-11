@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Oswald;
+}
+nav{
+    background-color: cadetblue;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    z-index: 1;
+    
+}
+nav ul{
+    display: flex ;
+}
+nav ul li a{
+    justify-content:space-between ;
+    color: blue;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+       
+    text-decoration:underline;
+    text-shadow: 4px 6px 8px chartreuse;
+
+
+}
+video{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 500px;
+    left:200px;
+}
+h1:hover{
+    color: darkkhaki;
+    text-shadow: 4px 6px 8px chartreuse;
+}
+span{
+    color: blue;
+    font-weight: bolder;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+#home{
+    content:"";
+    background-image: url(https://th.bing.com/th/id/OIP.d857S5qQKeMrirXJT2V0WwHaFn?rs=1&pid=ImgDetMain);
+    background-size: cover; 
+}
+main{
+    border: 2px inset blueviolet;
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    top: 1200px;
+    left: 75%;
+    box-shadow: 4px 6px;
+    
+    }
+    .pic {
+        display: flex;
+    }
+    
+    .pic img {
+        width: 2000px;
+    }
+    
+    .pic p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: justify;
+        margin: 10px;
+    }
+    
+    .pic h4 {
+        color: rgb(23, 23, 96);
+        font-size: large;
+        font-style: unset;
+        text-align: center;
+    }
+    
+    h3 {
+        color: rgb(105, 26, 26);
+        text-align: center;
+        margin: 15px;
+        text-shadow: 4px 5px 6px;
+    }
+    
+    .gallery {
+        justify-content: space-between;
+        box-shadow: 4px 5px 6px 8px rgb(31, 5, 125);
+    }
+    
+    .gallery img {
+        width: 450px;
+        height: 300px;
+        margin: 19px;
+        margin-bottom: 10px;
+    }
+    
+    .gallery img:hover {
+        box-shadow: 3px 4px 5px 8px rgb(31, 5, 125);
+    }    
+    .row{
+        display:flex;
+    }
+    .box{
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+        background:linear-gradient(to top,rgb(37, 253, 4)50%, rgb(174, 89, 89)50%);
+        background-size: 100% 200%;
+        transition: all 0.2s;
+    }
+    .box:hover{
+        background-position: right bottom;
+        border:4px ridge burlywood;
+        box-shadow: 3px 4px 8px rgb(190, 10, 181);
+    }
+
+    
+    .box img{
+        width: 100%;
+
+    }
+    .box h5{
+        color: blue;
+        margin: 5px;
+        text-align: center;
+        text-shadow: 4px 5px 6px;
+
+    }
+    .box p{
+        text-align: justify;
+        padding: 10px;
+
+
+    }
+    form{
+        width: 500px;
+        margin-left: 500px;
+
+    }
+    .input{
+        width: 100%;
+        margin: 10px;
+
+    }
+    button{
+        color: blueviolet;
+        background-color: aqua;
+    }
+    .cv{
+        background-color: blue;
+        color: chartreuse;
+        padding: 5px;
+        text-decoration: none;
+        border-radius: 25%;
+        margin-left: 750px;
+
+    }
